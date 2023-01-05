@@ -4,6 +4,3 @@ Dry run pour voir les actions dans le log
 ```shell
 bin/magento setup:upgrade --dry-run=1
 ```
-
-
-
