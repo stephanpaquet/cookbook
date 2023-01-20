@@ -1,6 +1,4 @@
-One to Many & One to One Polymorphic Relationships | Laravel Eloquent Relationships
-
-### TODO
+# One to Many & One to One Polymorphic Relationships | Laravel Eloquent Relationships
 
 - Commencer par les tests unitaires
 
@@ -8,14 +6,14 @@ One to Many & One to One Polymorphic Relationships | Laravel Eloquent Relationsh
 
 https://youtu.be/QAfTYrDhdHE
 
-SynchronizationDetail
+## Model - SynchronizationDetail
 
 ```php
 protected $guarded = [];
 
 public function configurations()
 {
-    return $this->morphMany(Configuration::class, 'configurable');
+    return $this->morphMany(Configuration::class, 'configured');
 }
 ```
 
