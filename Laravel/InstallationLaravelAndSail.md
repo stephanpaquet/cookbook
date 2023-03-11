@@ -14,7 +14,7 @@ Choisir les options en indiquant les chiffres séparés par des virgules
 
 ```shell
 php artisan sail:install
-./vendor/bin/sail up
+./vendor/bin/sail up -d
 ```
 
 
