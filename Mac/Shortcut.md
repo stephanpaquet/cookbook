@@ -1,0 +1,1 @@
+Press Shift + Command ⌘ + 5 on your keyboard, then choose to capture your entire screen, an app window, or a specific area.
