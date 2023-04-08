@@ -58,3 +58,13 @@ sail artisan -V
 >> Laravel Framework 9.52.4
 ```
 
+## Intallation de Jetstream et Inertial
+```shell
+sail composer require laravel/jetstream
+sail php artisan jetstream:install inertia --teams
+sail npm install --save-dev vite laravel-vite-plugin
+sail composer require "tightenco/ziggy"   
+
+sail npm install && sail npm run dev
+```
+
